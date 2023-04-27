@@ -35,4 +35,9 @@ public class Controller {
 
         return ResponseEntity.ok("data deleted");
     }
+    @GetMapping("/say")
+    public ResponseEntity<String> sayHello() {
+
+        return ResponseEntity.ok("Welcome to my WORLD");
+    }
 }
