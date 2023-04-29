@@ -40,4 +40,9 @@ public class Controller {
 
         return ResponseEntity.ok("Welcome to my WORLD");
     }
+
+    @GetMapping("/ram")
+    public String ram() {
+        return "Jai Shri Ram..!!";
+    }
 }
